@@ -333,6 +333,12 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  overflow: hidden;
+}
+
+.avatar-box img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 .info-content .name {
@@ -1286,7 +1292,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; overflow: hidden; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 120px; aspect-ratio: 1 / 1; object-fit: cover; }
 
   .info-content .name { margin-bottom: 15px; }
 
