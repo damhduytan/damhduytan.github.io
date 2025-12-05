@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dam Ho Duy Tan</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Tan Dam" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="DAM HO DUY TAN">DAM HO DUY TAN</h1>
+
+          <p class="title">FRONTEND DEVELOPER</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">damhduytan@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+84934948541" class="contact-link">+84 (93) 494 8541</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">January 31, 1997</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>57 Kỳ Đồng, Thanh Khê, Đà Nẵng</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/FordDHDT/" target="_blank" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/damhduytan" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link" target="_blank">
+              <ion-icon name="person-circle-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Diligent software engineer with 5+ years of experience in development.
+            Quick to adapt to new environments, meticulous, responsible, and always striving for improvement through practice and learning.
+          </p>
+
+          <p>
+            As a frontend developer, I focus on writing clean, maintainable, and reusable code while following industry best practices.
+            I build scalable, high-performance interfaces and ensure smooth, reliable user experiences across modern frameworks and environments.
+            I consistently prioritize code quality, robustness, and long-term maintainability in every project.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Web responsive icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Responsive Web Development</h4>
+
+                <p class="service-item-text">
+                  Creating fully responsive websites that adapt seamlessly to any device
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - Tech stack
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Tech Stack</h3>
+
+          <div class="tech-stack-list">
+
+            <img src="./assets/images/tech/html.svg" alt="HTML5" width="56" title="HTML5">
+            <img src="./assets/images/tech/css.svg" alt="HTML5" width="56" title="CSS">
+            <img src="./assets/images/tech/react.svg" alt="HTML5" width="56" title="REACT">
+            <img src="./assets/images/tech/electron.svg" alt="HTML5" width="56" title="ELECTRON">
+            <img src="./assets/images/tech/nextjs.svg" alt="HTML5" width="56" title="NEXTJS">
+            <img src="./assets/images/tech/vue.png" alt="HTML5" width="56" title="VUE">
+
+          </div>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">Languages:</h5>
+                <data value="80">HTML, SCSS, CSS, JavaScript, TypeScript</data>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">JavaScript frameworks:</h5>
+                <data value="80">VueJS, ReactJS, JQuery, NextJS</data>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">CSS frameworks:</h5>
+                <data value="80">Ant Design, Kendo UI, Fabric UI, Bootstrap, Tailwind CSS</data>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">Authorization:</h5>
+                <data value="80">OAuth, OAuth 2.0, SSO</data>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">Responsive web design:</h5>
+                <data value="80">Media queries, viewport units, mobile-friendly</data>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">Ecosystems:</h5>
+                <data value="80">Styled components, i18next</data>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">Fonts:</h5>
+                <data value="80">Google Fonts, Font Awesome, Font Icons, Icomoon</data>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">Coding conventions:</h5>
+                <data value="80">Best practices including the Airbnb JavaScript style guide</data>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">Package management systems:</h5>
+                <data value="80">NPM, Yarn, PNPM, Bun</data>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">Lighthouse optimization:</h5>
+                <data value="80">Page loading and rendering optimizations</data>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">UI/UX:</h5>
+                <data value="80">Adaptive web design, design analytics</data>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">UI design tools:</h5>
+                <data value="80">Figma</data>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 nowrap">Tooling & miscellaneous:</h5>
+                <data value="80">Stylint, Linters, ESLint, Prettier</data>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DUY TAN UNIVERSITY</h4>
+
+              <span>2015 — 2019</span>
+
+              <p class="timeline-text">
+                Good certification from Carnegie Mellon University's technology transfer program
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ENCLAVE</h4>
+
+              <span>06/2019 - 06/2022</span>
+
+              <p class="timeline-text">
+                A company of and by software engineering professionals. We have been providing
+                outstanding quality for software engineering and software testing services since
+                2007
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Z-TECH</h4>
+
+              <span>07/2022 - 03/2023</span>
+
+              <p class="timeline-text">
+                Our focus is to provide comprehensive, highly reliable and powerful IT services in
+                central Vietnam
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">HODFORDS</h4>
+
+              <span>04/2023 - 07/2025</span>
+
+              <p class="timeline-text">
+                Established in 2000, Hodfords is a multimedia agency specializing in creative
+                design, app development, web development, business solutions, consultancy and
+                digitaltransformation
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">FREELANCER</h4>
+
+              <span>08/2025 - Current</span>
+
+              <p class="timeline-text">
+                Providing frontend development services with a strong emphasis on clean architecture, reusability, and performance.
+                Supporting clients by implementing robust features, refactoring legacy code, and ensuring efficient development processes.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">LOGISTIC WEB APPLICATION</h4>
+
+              <span>06/2019 - 12/2019</span>
+
+              <p class="timeline-text">
+                <strong>Description:</strong> A web application to manage logistics operations
+                <br />
+                <strong>Role:</strong> Fullstack Developer
+                <br />
+                <strong>Technology:</strong> HTML, CSS, JavaScript, PHP, Laravel
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">REPORTING SYSTEM</h4>
+
+              <span>01/2020 - 06/2022</span>
+
+              <p class="timeline-text">
+                <strong>Description:</strong> Dynamic business intelligence tool that puts you in control of all your information
+                  and puts that information to work for the organization. Through real-time reporting,
+                  dynamic analytics, and customizable reports, you’ll see your company in a whole
+                  new light
+                <br />
+                <strong>Role:</strong> Frontend Developer
+                <br />
+                <strong>Technology:</strong> HTML, CSS, JavaScript, ReactJS, Kendo UI, Fabric UI, .NET
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Z-MINING SYSTEM</h4>
+
+              <span>07/2022 - 03/2023</span>
+
+              <p class="timeline-text">
+                <strong>Description:</strong> Z-Mining Ecosystem is a software system that helps users manage resources & run
+                  automation workon mobile and web browsers via their scripts
+                <br />
+                <strong>Role:</strong> Frontend Developer
+                <br />
+                <strong>Technology:</strong> HTML, CSS, JavaScript, ReactJS, Ant Design, .NET
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">LUMEN SYSTEM</h4>
+
+              <span>04/2023 - 06/2023</span>
+
+              <p class="timeline-text">
+                <strong>Description:</strong> Lumen System is a software system to manage brand, suppliers and member. The
+                  system includes 1 system admin website, 1 brand website and 1 recruiter website
+                <br />
+                <strong>Role:</strong> Frontend Developer
+                <br />
+                <strong>Technology:</strong> HTML, CSS, JavaScript, Vue 2, Vue 3, NodeJS
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VANBERRA SYSTEM</h4>
+
+              <span>07/2023 - 03/2024</span>
+
+              <p class="timeline-text">
+                <strong>Description:</strong> Vanberra System is a software system that helps users connect booking platforms,
+                  get hotel listings and reviews from users
+                <br />
+                <strong>Role:</strong> Frontend Developer
+                <br />
+                <strong>Technology:</strong> HTML, CSS, JavaScript, ReactJS, NodeJS, Ant Design
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DRAGONFLY NATIVE DESKTOP APP</h4>
+
+              <span>04/2024 - 09/2024</span>
+
+              <p class="timeline-text">
+                <strong>Description:</strong> A native desktop application that delivers advanced visual analytics tools to
+                  enhance design decision-making and user experience
+                <br />
+                <strong>Role:</strong> Developer (Working both renderer process and main process)
+                <br />
+                <strong>Technology:</strong> HTML, CSS, ReactJS, NodeJS, ElectronJS
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ENTERPRISE GEN-AI PLATFORM</h4>
+
+              <span>10/2024 - 07/2025</span>
+
+              <p class="timeline-text">
+                <strong>Description:</strong> A purpose-build platform that help organization leverage their data
+                <br />
+                <strong>Role:</strong> Frontend Developer
+                <br />
+                <strong>Technology:</strong> HTML, CSS, JavaScript, ReactJS, NodeJS, Ant Design
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">E-COMMERCE SEO APPLICATION</h4>
+
+              <span>08/2025 - Current</span>
+
+              <p class="timeline-text">
+                <strong>Description:</strong> A pixel-perfect e-commerce SEO platform focused on metadata optimization, automated audits, and high Lighthouse performance scores
+                <br />
+                <strong>Role:</strong> Frontend Developer
+                <br />
+                <strong>Technology:</strong> HTML, CSS, JavaScript, ReactJS, NextJS, Tailwind CSS
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
