@@ -782,6 +782,8 @@ main {
   line-height: 1.6;
 }
 
+.timeline-text strong { font-weight: 700; }
+
 
 /**
  * skills 
