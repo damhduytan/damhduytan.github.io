@@ -750,6 +750,7 @@ main {
 
 .timeline-list span {
   white-space: nowrap;
+  word-break: keep-all;
   color: var(--vegas-gold);
   font-weight: var(--fw-400);
   line-height: 1.6;
